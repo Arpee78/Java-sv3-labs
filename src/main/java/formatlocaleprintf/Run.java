@@ -27,7 +27,7 @@ public class Run {
 
     public String printFormattedRunText() {
         String date = LocalDate.now().toString();
-        double km = kms.get(kms.size()-1);
+        double km = kms.get(kms.size() - 1);
         return String.format(RUN_TEXT, name, date, kms.size(), km);
     }
 
