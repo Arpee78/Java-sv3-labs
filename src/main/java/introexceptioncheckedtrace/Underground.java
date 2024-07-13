@@ -12,7 +12,7 @@ public class Underground {
 
         Operations operations = new Operations();
 
-        Path path = Paths.get("src/main/resources/underground.txt");
+        Path path = Paths.get("src/main/resources/underground_.txt");
         List<String> carriages = new ArrayList<>();
 
         try {
